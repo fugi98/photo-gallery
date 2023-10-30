@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background: #1c1c1c;
+}
+
+.header{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+  background-color: #0a0a59;
+  color: #fff;
+  border: 5px solid #fdb345;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img{
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery::after{
+  content: "";
+  width: 300px;
+}
