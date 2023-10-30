@@ -41,3 +41,9 @@ body{
   content: "";
   width: 300px;
 }
+footer{
+  text-align: center;
+  color: #fff;
+  background: #000;
+  padding: 20px;
+}
